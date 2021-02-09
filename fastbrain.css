@@ -1,0 +1,122 @@
+#quest{
+    width: 150px;
+    float: left;
+    margin-left: 18%;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Judson';
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+#yes_ans{
+    border-radius: 70%;
+    padding: 13px;
+    margin-left: 5%;
+    font-family: 'Gloria Hallelujah';
+    font-size: 20px;
+
+}
+
+#no_ans{
+    border-radius: 70%;
+    padding: 13px 15px 13px 15px;
+    margin-left: 6%;
+    font-family: 'Gloria Hallelujah';
+    font-size: 20px;
+
+}
+
+#outerbar{
+    width: 66%;
+    height: 10%;
+    top: 20%;
+    position: relative;
+    background-color: white;
+    border-color: black;
+    border-radius: 5%;
+    margin-left: 15%;
+}
+
+#innerbar{
+    width: 100%;
+    height: 90%;
+    top: 5%;
+    position: absolute;
+    border-radius: 5%;
+    background-color: rgb(73, 85, 138);
+}
+
+p{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Sofia';
+    color: white;
+}
+
+.nonactive{
+    display: none;
+}
+
+.active{
+    display: block;
+    font-size: 33px;
+    margin-top: 47%;
+}
+
+
+.activej{
+    display: block;
+    margin-bottom: 1%;
+    margin-left: 8px;
+    animation-name: animate__bounceInLeft;
+    animation-duration: 1.1s;
+    animation-fill-mode: forwards;
+}
+
+.col-lg-3{
+    border-width: 70px;
+    padding: 15px;
+    margin: 2%;
+    background-image: url("math.jpg");
+    border-radius: 4%;
+}
+
+@keyframes animate__bounceInLeft{
+    from{
+        margin-left: -100px;
+    }
+    to{
+        margin-left: 8px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #yes_ans{
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    #no_ans{
+        margin-top: 5%;
+    }
+    .row{
+        width: 104%;  
+    }
+    #quest{
+        margin-left: 24%;
+    }
+}
+
+@media screen and (width: 768px) {
+    #yes_ans{
+        margin-left: 28%;
+        margin-top: 5%;
+    }
+    #no_ans{
+        margin-top: 5%;
+    }
+    .row{
+        width: 40%;  
+    }
+}
