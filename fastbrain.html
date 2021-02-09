@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastBrain</title>
+    <link rel="stylesheet" href="fastbrain.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Judson' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah'>
+
+</head>
+
+<body class="mt-5" onload="ref()">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="nonactive" id="joke">
+                    <p id="mes">Loooserrr!</p>
+                </div>
+                <div class="nonactive" id="iq">
+                    <p id="iq_mes">Your IQ Is Greate!</p>
+                </div>
+
+                <div>
+                    <p id="score">Score : 0</p>
+                </div><br>
+                <form id="form">
+                    <fieldset disabled>
+                        <div class="mb-3">
+                            <input type="text" id="quest" class="form-control">
+                        </div>
+                    </fieldset>
+                </form>
+
+                <div id="outerbar">
+                    <div id="innerbar">
+
+                    </div>
+
+                </div><br>
+                <br>
+                <br>
+                <br>
+            </div>
+                <div id="buttons">
+                    <button type="button" id="yes_ans" class="btn btn-success">Yes</button>
+                    <button type="button" id="no_ans" class="btn btn-danger">No</button>
+                </div>
+        </div>
+    </div>
+
+
+    <script src="fastbrain.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
